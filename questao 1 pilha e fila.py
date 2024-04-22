@@ -15,3 +15,15 @@ for letra in string:
 #saida = []
 #else:
     #saida.insert(0, letra)
+
+#criação de classe
+
+class Queue:
+    def __int__(self):
+        self.items = []
+    
+    def enqueue(self, item):
+        self.items.insert(0, item)
+    
+    def dequeue(self, item):
+        return self.items.pop()
