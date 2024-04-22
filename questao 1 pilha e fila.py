@@ -19,7 +19,7 @@ for letra in string:
 #criação de classe
 
 class Queue:
-    def __int__(self):
+    def __init__(self):
         self.items = []
     
     def enqueue(self, item):
