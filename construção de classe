@@ -1,0 +1,20 @@
+class Queue:
+  def __init__(self):
+    # Crosntrutor com minha lista items
+    self.items = []
+
+  def enqueue(self, item):
+    # adiciona elemento na fila
+    self.items.insert(0, item)
+
+  def dequeue(self):
+    # Remove elemento da fila
+    return self.items.pop()
+
+teste = Queue()
+
+teste.enqueue(2)
+
+print(teste.items)
+
+#appenda 2 e printa os ITEMS da classe (fazendo print(teste) ele printaria a classe e não os itens)
